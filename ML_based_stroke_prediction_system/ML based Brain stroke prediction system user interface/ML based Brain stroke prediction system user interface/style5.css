@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@500&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:blueviolet;
+}
+li,a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:blueviolet;
+}
+.logo {
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+.logo:hover{
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+.logo span {
+    color: white; 
+}
+.options{
+    list-style: none;
+}
+.options li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.options li .a5{
+    color: darkblue;
+}
+
+.options li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin-top: 5px;
+    border-radius: 5px;
+}
+
+.options li.active-link .underline {
+	width: 100%;
+	background-color: white;
+}
+
+.options li:hover .underline {
+	background-color: white;
+	width: 100%;
+}
+
+.content {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    min-height: calc(100vh - 50px); 
+}
+
+
+.card{
+    width: 36%;
+    height: 23rem;
+    display: inline-block;
+    box-shadow: 2px 2px 20px blueviolet;
+    border-radius: 2px; 
+    margin: 2%;
+   }
+
+.image{
+padding: 20px;
+   }
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+}
+
+.title{
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+h1{
+ font-family: "Montserrat",sans-serif;   
+ font-size: 20px;
+ color: #FFFFFF;
+}
+#c1{
+    margin-left: 150px;
+}
+#c2{
+    margin-left: 60px;
+}
+#c3{
+    margin-left: 150px;
+}
+#c4{
+    margin-left: 60px;
+}
+#c5{
+    margin-left: 150px;
+}
+#c6{
+    margin-left: 60px;
+}
+#c7{
+    margin-left: 150px;
+    margin-top: 3rem;
+}
+#c8{
+    margin-left: 60px;
+}
+#c9{
+    margin-left: 150px;
+}
+#c10{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#c11{
+    margin-left: 150px;
+    margin-top: 3rem;
+}
+#c12{
+    margin-left: 60px;
+}
+
+
+
